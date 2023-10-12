@@ -201,10 +201,9 @@ namespace figure
             time.Stop();
             TimeSpan ts = time.Elapsed;
             string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}.{4:00}",
-           ts.Hours, ts.Minutes, ts.Seconds,
-           ts.Milliseconds, ts.Ticks / 10);
+            ts.Hours, ts.Minutes, ts.Seconds,
+            ts.Milliseconds, ts.Ticks / 10);
             Console.WriteLine("Время выполнения: " + elapsedTime);
-
             time.Start();
             Console.WriteLine("\nОбход всех фигур через while:");
             int index = 0;
@@ -217,44 +216,9 @@ namespace figure
             time.Stop();
             ts = time.Elapsed;
             elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}.{4:00}",
-          ts.Hours, ts.Minutes, ts.Seconds,
-          ts.Milliseconds, ts.Ticks / 10);
+            ts.Hours, ts.Minutes, ts.Seconds,
+            ts.Milliseconds, ts.Ticks / 10);
             Console.WriteLine("Время выполнения: " + elapsedTime);
-            /*
-            Console.WriteLine("\nВыборка фигур с площадью больше 10:");
-            var selectedFigures = collection.Where(figure => figure.Square() > 10);
-            foreach (var figure in selectedFigures)
-            {
-                Console.WriteLine($"Фигура:{figure.GetType().Name}, {(int)figure.Square()}");
-            }
-
-            Console.WriteLine("\nСортировка фигур по площади:");
-            var sortedFigures = collection.OrderBy(figure => figure.Square());
-            foreach (var figure in sortedFigures)
-            {
-                Console.WriteLine($"Фигура:{figure.GetType().Name}, {(int)figure.Square()}");
-            }
-
-            Console.WriteLine("\nГруппировка фигур по типу:");
-            var groupedFigures = collection.GroupBy(figure => figure.GetType().Name);
-            foreach (var group in groupedFigures)
-            {
-                Console.WriteLine($"Тип: {group.Key}, Количество: {group.Count()}");
-            }
-
-            bool anySquareGreaterThan20 = collection.Any(figure => figure.Square() > 20);
-            bool allSquaresGreaterThan5 = collection.All(figure => figure.Square() > 5);
-            Console.WriteLine($"\nЕсть ли фигуры с площадью больше 20: {anySquareGreaterThan20}");
-            Console.WriteLine($"Все ли фигуры имеют площадь больше 5: {allSquaresGreaterThan5}");
-
-            double totalSquare = collection.Sum(figure => figure.Square());
-            double minSquare = collection.Min(figure => figure.Square());
-            double maxSquare = collection.Max(figure => figure.Square());
-            Console.WriteLine($"\nСумма площадей всех фигур: {(int)totalSquare}");
-            Console.WriteLine($"Минимальная площадь: {(int)minSquare}");
-            Console.WriteLine($"Максимальная площадь: {(int)maxSquare}");
-            */
-
             Console.WriteLine("Повторить? (0-нет), (1-да)");
             int x = int.Parse(Console.ReadLine());
             if (x == 1) { Main(); }

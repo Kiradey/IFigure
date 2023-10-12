@@ -1,0 +1,8 @@
+C:\Users\Hi-tech\source\repos\interface\IFigure\obj\Debug\interface.csproj.AssemblyReference.cache
+C:\Users\Hi-tech\source\repos\interface\IFigure\obj\Debug\interface.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hi-tech\source\repos\interface\IFigure\obj\Debug\interface.csproj.CoreCompileInputs.cache
+C:\Users\Hi-tech\source\repos\interface\IFigure\bin\Debug\@interface.exe.config
+C:\Users\Hi-tech\source\repos\interface\IFigure\bin\Debug\@interface.exe
+C:\Users\Hi-tech\source\repos\interface\IFigure\bin\Debug\@interface.pdb
+C:\Users\Hi-tech\source\repos\interface\IFigure\obj\Debug\@interface.exe
+C:\Users\Hi-tech\source\repos\interface\IFigure\obj\Debug\@interface.pdb
